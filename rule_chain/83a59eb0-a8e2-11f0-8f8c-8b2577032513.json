@@ -1,0 +1,65 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "17e85820-a8e7-11f0-8f8c-8b2577032513"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "83a59eb0-a8e2-11f0-8f8c-8b2577032513"
+    },
+    "name" : "Resources test",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : null,
+    "firstNodeIndex" : 0,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 364,
+        "layoutY" : 153
+      },
+      "configuration" : {
+        "modelId" : {
+          "entityType" : "AI_MODEL",
+          "id" : "c2ef4310-a8e6-11f0-8f8c-8b2577032513"
+        },
+        "systemPrompt" : "You are a helpful AI assistant. Your primary function is to process the user's request and respond with a valid JSON object. Do not include any text, explanations, or markdown formatting before or after the JSON output.",
+        "userPrompt" : "test",
+        "resourceIds" : [ "0abe7310-a832-11f0-af79-755ea627f865", "e95e4e90-a82a-11f0-af79-755ea627f865", "63a13380-a834-11f0-af79-755ea627f865", "930f3f40-a852-11f0-9a69-3912aae0fcfc" ],
+        "responseFormat" : {
+          "type" : "JSON"
+        },
+        "timeoutSeconds" : 60,
+        "forceAck" : true
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "17e85820-a8e7-11f0-8f8c-8b2577032513"
+      },
+      "name" : "test",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.ai.TbAiNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
