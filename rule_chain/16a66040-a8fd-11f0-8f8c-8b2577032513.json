@@ -67,7 +67,7 @@
         },
         "systemPrompt" : "You are a helpful AI assistant. Your primary function is to process the user's request and respond with a valid JSON object. Do not include any text, explanations, or markdown formatting before or after the JSON output.",
         "userPrompt" : "request",
-        "resourceIds" : [ "0abe7310-a832-11f0-af79-755ea627f865", "9b1c4170-a5d6-11f0-abfb-f3fa07455eed", "e9ca8380-a52d-11f0-bc17-0de87f287302", "63a13380-a834-11f0-af79-755ea627f865" ],
+        "resourceIds" : [ "9b1c4170-a5d6-11f0-abfb-f3fa07455eed", "e9ca8380-a52d-11f0-bc17-0de87f287302" ],
         "responseFormat" : {
           "type" : "JSON"
         },
