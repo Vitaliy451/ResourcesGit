@@ -7,7 +7,10 @@
       "mediaType" : ""
     },
     "etag" : "2d69ec5d4040e1372ac423fc03e93e2f6efd08388ee9d7fef128ece8e1567cdb",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "227a6450-a828-11f0-af79-755ea627f865"
+    },
     "fileName" : "10353.xml",
     "id" : {
       "entityType" : "TB_RESOURCE",

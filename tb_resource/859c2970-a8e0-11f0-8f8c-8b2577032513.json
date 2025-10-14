@@ -5,7 +5,10 @@
     "data" : "ZXhwb3J0IGNvbnN0IGEgPSA1MTsg",
     "descriptor" : null,
     "etag" : "3bea1cd8995f5003168f25ee615a187325ae73e05ade22a18b17853122268835",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "859c2970-a8e0-11f0-8f8c-8b2577032513"
+    },
     "fileName" : "test.js",
     "id" : {
       "entityType" : "TB_RESOURCE",

@@ -21,7 +21,10 @@
       }
     },
     "etag" : "d576c3a8460b7f8a4e378ee4903ecf5e21e30fc34ebe4cb556143720968ba278",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "0ce51f70-a839-11f0-af79-755ea627f865"
+    },
     "fileName" : "tenant-image.svg",
     "id" : {
       "entityType" : "TB_RESOURCE",

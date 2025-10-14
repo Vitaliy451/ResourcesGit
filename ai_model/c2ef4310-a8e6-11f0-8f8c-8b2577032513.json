@@ -17,7 +17,10 @@
       "topP" : null,
       "modelType" : "CHAT"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "AI_MODEL",
+      "id" : "c2ef4310-a8e6-11f0-8f8c-8b2577032513"
+    },
     "name" : "test",
     "id" : {
       "entityType" : "AI_MODEL",

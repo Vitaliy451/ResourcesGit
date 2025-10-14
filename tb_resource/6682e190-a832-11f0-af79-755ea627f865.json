@@ -5,7 +5,10 @@
     "data" : "ZXhwb3J0IGNvbnN0IHZhbHVlID0gJ3RlbmFudCBtb2R1bGUnOw==",
     "descriptor" : null,
     "etag" : "c98d852c8e312910766434b3c070fd25cbcb222f66e8550dcc0131230abe76f2",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "6682e190-a832-11f0-af79-755ea627f865"
+    },
     "fileName" : "Tenant module.js",
     "id" : {
       "entityType" : "TB_RESOURCE",

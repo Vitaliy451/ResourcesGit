@@ -7,7 +7,10 @@
       "mediaType" : "application/json"
     },
     "etag" : "c59d8955e52fe359c6dc96b69f8b9d79f114a0b0958ecd842abfc23a8fe2c606",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "e95e4e90-a82a-11f0-af79-755ea627f865"
+    },
     "fileName" : "3734972c6f929fe71f920339231a353a.json",
     "id" : {
       "entityType" : "TB_RESOURCE",

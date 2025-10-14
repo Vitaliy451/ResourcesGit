@@ -7,7 +7,10 @@
       "mediaType" : ""
     },
     "etag" : "f3ecf51a79a4b0eadff7b2bc5def1b8a0c07bed3086249ff3cddc14c032aee69",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "10bcbfe0-a82f-11f0-af79-755ea627f865"
+    },
     "fileName" : "keystore.jks",
     "id" : {
       "entityType" : "TB_RESOURCE",

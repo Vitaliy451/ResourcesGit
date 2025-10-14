@@ -7,7 +7,10 @@
       "mediaType" : "application/json"
     },
     "etag" : "bd28323f8a25e95e0b3eeb2fe61d2fb86f68be78c4b991268685e2f248e8e391",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "0abe7310-a832-11f0-af79-755ea627f865"
+    },
     "fileName" : "tenant-image.json",
     "id" : {
       "entityType" : "TB_RESOURCE",

@@ -12,7 +12,7 @@
     },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "d0c990d0-a8f5-11f0-8f8c-8b2577032513"
+      "id" : "16b40e20-a8f8-11f0-8f8c-8b2577032513"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -38,7 +38,7 @@
         },
         "systemPrompt" : "You are a helpful AI assistant. Your primary function is to process the user's request and respond with a valid JSON object. Do not include any text, explanations, or markdown formatting before or after the JSON output.",
         "userPrompt" : "test",
-        "resourceIds" : [ "e95e4e90-a82a-11f0-af79-755ea627f865", "0abe7310-a832-11f0-af79-755ea627f865", "e9ca8380-a52d-11f0-bc17-0de87f287302", "9b1c4170-a5d6-11f0-abfb-f3fa07455eed", "63a13380-a834-11f0-af79-755ea627f865", "930f3f40-a852-11f0-9a69-3912aae0fcfc" ],
+        "resourceIds" : [ "d70b9930-a8f9-11f0-8f8c-8b2577032513", "eb578570-a8f9-11f0-8f8c-8b2577032513" ],
         "responseFormat" : {
           "type" : "JSON"
         },
@@ -51,7 +51,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "d0c990d0-a8f5-11f0-8f8c-8b2577032513"
+        "id" : "16b40e20-a8f8-11f0-8f8c-8b2577032513"
       },
       "name" : "test",
       "queueName" : null,

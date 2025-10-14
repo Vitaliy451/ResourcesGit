@@ -7,7 +7,10 @@
       "mediaType" : ""
     },
     "etag" : "b0c08240cf85db02104e16c9af8f04f941f53ecfd85f73044d4aa30ad70dc785",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "32745b90-a828-11f0-af79-755ea627f865"
+    },
     "fileName" : "3333.p12",
     "id" : {
       "entityType" : "TB_RESOURCE",
