@@ -1,0 +1,97 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "16a66040-a8fd-11f0-8f8c-8b2577032513"
+    },
+    "firstRuleNodeId" : null,
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "16a66040-a8fd-11f0-8f8c-8b2577032513"
+    },
+    "name" : "R_test_2",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 1,
+      "type" : "Failure"
+    } ],
+    "firstNodeIndex" : null,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 47,
+        "layoutY" : 220
+      },
+      "configuration" : {
+        "msgCount" : 1,
+        "periodInSeconds" : 1,
+        "scriptLang" : "TBEL",
+        "jsScript" : "var msg = { temp: 42, humidity: 77 };\nvar metadata = { data: 40 };\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "tbelScript" : "var msg = { temp: 42, humidity: 77 };\nvar metadata = { data: 40 };\nvar msgType = \"POST_TELEMETRY_REQUEST\";\n\nreturn { msg: msg, metadata: metadata, msgType: msgType };",
+        "originatorId" : null,
+        "originatorType" : "RULE_NODE"
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "fcceb490-a8fe-11f0-8f8c-8b2577032513"
+      },
+      "name" : "generator test",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.debug.TbMsgGeneratorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 358,
+        "layoutY" : 218
+      },
+      "configuration" : {
+        "modelId" : {
+          "entityType" : "AI_MODEL",
+          "id" : "c2ef4310-a8e6-11f0-8f8c-8b2577032513"
+        },
+        "systemPrompt" : "You are a helpful AI assistant. Your primary function is to process the user's request and respond with a valid JSON object. Do not include any text, explanations, or markdown formatting before or after the JSON output.",
+        "userPrompt" : "request",
+        "resourceIds" : [ "0abe7310-a832-11f0-af79-755ea627f865", "d70b9930-a8f9-11f0-8f8c-8b2577032513", "930f3f40-a852-11f0-9a69-3912aae0fcfc", "e95e4e90-a82a-11f0-af79-755ea627f865" ],
+        "responseFormat" : {
+          "type" : "JSON"
+        },
+        "timeoutSeconds" : 60,
+        "forceAck" : true
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "fcceb491-a8fe-11f0-8f8c-8b2577032513"
+      },
+      "name" : "trequest",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.ai.TbAiNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
